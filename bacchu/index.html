@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DelishBite Restaurant</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Fixed Topbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">DelishBite</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#offer">Offers</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="hero" class="hero d-flex align-items-center">
+    <div class="container text-center text-white">
+      <h1 class="display-4 fw-bold">Welcome to DelishBite</h1>
+      <p class="lead">Tasty. Fresh. Memorable.</p>
+      <a href="#offer" class="btn btn-warning btn-lg mt-3">View Today's Special</a>
+    </div>
+  </header>
+
+  <!-- Offer Section -->
+  <section id="offer" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4 fs-1 fw-bold">Special Offers</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 text-center shadow">
+            <div class="card-body">
+              <h5 class="card-title">Weekend Combo</h5>
+              <p class="card-text">Get 20% off on all combos every weekend.</p>
+              <span class="badge bg-success">Limited Time</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 text-center shadow">
+            <div class="card-body">
+              <h5 class="card-title">Family Feast</h5>
+              <p class="card-text">Order for 4+ and get a free dessert.</p>
+              <span class="badge bg-danger">Hot Deal</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 text-center shadow">
+            <div class="card-body">
+              <h5 class="card-title">Lunch Hour</h5>
+              <p class="card-text">Flat 15% off from 12pm to 3pm on weekdays.</p>
+              <span class="badge bg-primary">New</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4 fw-bold fs-1">About Us</h2>
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img src="images/about.jpg" class="img-fluid rounded shadow" alt="Restaurant">
+        </div>
+        <div class="col-md-6">
+          <p class="pt-3">DelishBite is your go-to place for delicious food and unforgettable dining experiences. With a menu inspired by global cuisine and ingredients sourced locally, we promise taste, freshness, and satisfaction in every bite.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="newsletter bg-warning py-5 text-center text-dark">
+    <div class="container">
+      <h2>Subscribe to Our Newsletter</h2>
+      <form class="row justify-content-center mt-3">
+        <div class="col-md-6">
+          <input type="email" class="form-control" placeholder="Enter your email">
+        </div>
+        <div class="col-md-2">
+          <button type="submit" class="btn btn-dark w-100 h-95">Subscribe</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">What Our Customers Say</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="testimonial p-4 shadow rounded">
+            <p>“The best food in town. Amazing taste and quality!”</p>
+            <h6> - Priya Sharma</h6>
+            <div class="stars text-warning fs-3">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="testimonial p-4 shadow rounded">
+            <p>“Quick service and fresh dishes. Highly recommended.”</p>
+            <h6>- Raj Mehta</h6>
+            <div class="stars text-warning fs-3">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9734;</span>
+              <span class="star">&#9734;</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="testimonial p-4 shadow rounded">
+            <p>“Great ambiance and delicious food. 10/10!”</p>
+            <h6> - Anjali Verma</h6>
+            <div class="stars text-warning fs-3">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9734;</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="py-5">
+    <div class="container">
+      <h2 class=" mb-4 ms-1 fs-1">Frequently Asked <br> <span class="cursive">Questions</span></h2>
+      <div class="accordion" id="faqAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#q1">
+              Do you offer home delivery?
+            </button>
+          </h2>
+          <div id="q1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">Yes, we deliver within 5 km radius for free on orders above ₹500.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q2">
+              Are reservations required?
+            </button>
+          </h2>
+          <div id="q2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">Not necessary on weekdays, but we recommend reservations on weekends.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Us -->
+  <section id="contact" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Us</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <form action="submit.php" method="post">
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Your Email">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+            </div>
+            <button  type="submit" class="btn btn-warning">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5>Contact Us</h5>
+          <p>Email: info@delishbite.com</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Quick Links</h5>
+          <a href="#" class="text-white d-block">Home</a>
+          <a href="#" class="text-white d-block">Menu</a>
+          <a href="#" class="text-white d-block">About Us</a>
+          <a href="#" class="text-white d-block">Contact</a>
+        </div>
+        <div class="col-md-4">
+          <h5>Follow Us</h5>
+          <div class="foot-icons">
+          <a href="#" class="text-white me-2"><span class="fab fa-facebook-f"></span></a>
+          <a href="#" class="text-white me-2"><span class="fab fa-twitter"></span></a>
+          <a href="#" class="text-white me-2"><span class="fab fa-instagram"></span></a>
+          <a href="#" class="text-white"><span class="fab fa-linkedin-in"></span></a>
+          </div>
+      </div>
+    </div>
+      <p class="text-center mt-5 fs-5">&copy; 2025 DelishBite. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
